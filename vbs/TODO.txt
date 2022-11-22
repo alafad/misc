@@ -1,0 +1,18 @@
+curl "https://www.lernsax.de/wws/106484.php?sid=46188132824970959931670275281672542084993315939666722764931683170400Sf0c3b275" -X POST -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:99.0) Gecko/20100101 Firefox/99.0" -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8" -H "Accept-Language: de,en-US;q=0.7,en;q=0.3" -H "Accept-Encoding: gzip, deflate, br" -H "Referer: https://www.lernsax.de/wws/106484.php?to=i21bodenni"%"40bszetdd.lernsax.de&sid=46188132824970959931670275281672542084993315939666722764931683170370S466471be&enableautogrow=1" -H "Content-Type: multipart/form-data; boundary=---------------------------66974083537835573952065048242" -H "Origin: https://www.lernsax.de" -H "Connection: keep-alive" -H "Cookie: wwspc=1; wwsc=365818536172068360" -H "Upgrade-Insecure-Requests: 1" -H "Sec-Fetch-Dest: iframe" -H "Sec-Fetch-Mode: navigate" -H "Sec-Fetch-Site: same-origin" -H "Sec-Fetch-User: ?1" --data-binary "-----------------------------66974083537835573952065048242"`
+"Content-Disposition: form-data; name=""to"""`
+""`
+"i21bodenni@bszetdd.lernsax.de"`
+"-----------------------------66974083537835573952065048242"`
+"Content-Disposition: form-data; name=""send"""`
+""`
+"1"`
+"-----------------------------66974083537835573952065048242"`
+"Content-Disposition: form-data; name=""text"""`
+""`
+"händisch"`
+"-----------------------------66974083537835573952065048242"`
+"Content-Disposition: form-data; name=""file""; filename="""""`
+"Content-Type: application/octet-stream"`
+""`
+"-----------------------------66974083537835573952065048242--"`
+""
