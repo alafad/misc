@@ -1,0 +1,3 @@
+[submodule "DigiSpark-Scripts"]
+	path = DigiSpark-Scripts
+	url = https://github.com/CedArctic/DigiSpark-Scripts
