@@ -1,0 +1,1 @@
+"%PROGRAMFILES%\VideoLAN\VLC\vlc.exe" http://192.168.10.1:8080
