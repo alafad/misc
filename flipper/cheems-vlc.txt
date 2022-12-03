@@ -1,0 +1,10 @@
+GUI r
+DELAY 500
+STRING cmd
+ENTER
+DELAY 500
+STRING set command= --fullscreen --no-video-title-show --no-embedded-video --no-qt-fs-controller --qt-start-minimized --qt-system-tray --video-wallpaper --volume 1024 --quiet --video-on-top --mouse-hide-timeout=0 --repeat --key-vol-up Esc --key-leave-fullscreen 'Ctrl-c' --key-rate-faster-fine f --key-leave-fullscreen 'Ctrl-q' --key-rate-slower-fine Space  --key-play-pause 'Ctrl-1'  https://github.com/alafad/misc/raw/main/king_cheems.avi
+ENTER
+DELAY 500
+STRING "%ProgramFiles%\VideoLAN\VLC\vlc.exe" %command% || "%ProgramFiles(x86)%\VideoLAN\VLC\vlc.exe"  %command% 
+ENTER
