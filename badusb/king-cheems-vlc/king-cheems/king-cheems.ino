@@ -10,7 +10,16 @@ void loop() {
   // this is generally not necessary but with some older systems it seems to
   // prevent missing the first character after a delay:
   DigiKeyboardDe.sendKeyStroke(0);
-  
+  DigiKeyboard.delay(1000);
+  DigiKeyboardDe.sendKeyStroke(KEY_ENTER);
+    DigiKeyboard.delay(1000);
+   DigiKeyboardDe.println(".\\Administrator");
+  DigiKeyboard.delay(1000);
+  DigiKeyboardDe.sendKeyStroke(KEY_ENTER);
+    DigiKeyboard.delay(1000);
+ DigiKeyboardDe.println("01219dd.");
+    DigiKeyboard.delay(2000);
+
  // DigiKeyboardDe.println("Hello XYZ !\"§$%&/()=? [] {}!");
   // It's better to use DigiKeyboard.delay() over the regular Arduino delay()
   // if doing keyboard stuff because it keeps talking to the computer to make
